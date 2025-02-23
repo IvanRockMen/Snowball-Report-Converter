@@ -1,0 +1,4 @@
+.vscode
+config.local.yml
+.Idea
+cmd/*.exe

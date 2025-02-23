@@ -1,0 +1,15 @@
+root = true
+
+[*]
+indent_size = 4
+indent_style = tab
+trim_trailing_whitespace = true
+insert_final_newline = true
+charset = utf-8
+
+[*.py]
+indent_style = space
+
+[*.{yaml,yml,js,ts,json,bson}]
+indent_size = 2
+indent_style = space

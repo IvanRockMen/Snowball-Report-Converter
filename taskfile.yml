@@ -1,0 +1,10 @@
+version: "3"
+
+tasks:
+  pre-commit:
+    cmds:
+      - pre-commit run
+
+  lint:
+    cmds:
+      - golangci-lint ./...

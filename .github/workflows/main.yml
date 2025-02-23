@@ -1,0 +1,13 @@
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+  id-token: write
+  packages: write
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
